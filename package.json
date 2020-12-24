@@ -1,0 +1,23 @@
+{
+  "name": "vuenote",
+  "version": "1.0.0",
+  "description": "Notes",
+  "main": "index.js",
+  "repository": "https://github.com/Cenergy/vuenote.git",
+  "author": "Cenergy",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+  },
+  "devDependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-smooth-scroll": "^0.0.10",
+    "vuepress-plugin-clean-urls": "^1.1.2"
+  }
+}
