@@ -14,7 +14,7 @@ module.exports = {
     },
   },
   title: 'Fluid',
-  base: '/hexo-fluid-docs/',
+  base: '/docs/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
   ],
@@ -24,7 +24,7 @@ module.exports = {
         // 多语言下拉菜单的标题
         selectText: 'Languages',
         // 该语言在下拉菜单中的标签
-        label: '🇨🇳 简体中文',
+        label: '简体中文',
         // 编辑链接文字
         editLinkText: '帮助我们完善文档',
         // 最后更新的描述
@@ -48,7 +48,7 @@ module.exports = {
       },
       '/en/': {
         selectText: 'Languages',
-        label: '🇬🇧 English',
+        label: 'English',
         ariaLabel: 'Languages',
         editLinkText: 'Edit this docs',
         lastUpdated: 'Last Updated',

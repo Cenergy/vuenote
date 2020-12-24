@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "moment": "^2.29.1",
